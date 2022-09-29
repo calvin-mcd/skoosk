@@ -10,3 +10,6 @@
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components
+[submodule "kbd"]
+	path = kbd
+	url = https://github.com/foostan/kbd
