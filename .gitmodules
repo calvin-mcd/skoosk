@@ -13,3 +13,9 @@
 [submodule "kbd"]
 	path = kbd
 	url = https://github.com/foostan/kbd
+[submodule "CrumpPrints.pretty"]
+	path = CrumpPrints.pretty
+	url = https://github.com/tylercrumpton/CrumpPrints.pretty
+[submodule "CrumpSchemes"]
+	path = CrumpSchemes
+	url = https://github.com/tylercrumpton/CrumpSchemes
