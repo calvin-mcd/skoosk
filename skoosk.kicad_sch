@@ -2015,7 +2015,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 117.7256 105.41 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 100.965 111.125 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 100.965 111.125 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 100.965 111.125 0)
@@ -2110,7 +2110,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 117.7256 69.85 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 100.965 75.565 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 100.965 75.565 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 100.965 75.565 0)
@@ -3050,7 +3050,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 117.7256 87.63 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 100.965 93.345 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 100.965 93.345 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 100.965 93.345 0)
@@ -3120,7 +3120,7 @@
   (symbol (lib_id "power:GND") (at 96.52 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 835fe862-bf49-4aad-bdd0-ce0a95cfa8b5)
-    (property "Reference" "#PWR?" (id 0) (at 102.87 115.57 0)
+    (property "Reference" "#PWR0109" (id 0) (at 102.87 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 100.33 115.5699 90)
@@ -3447,7 +3447,7 @@
   (symbol (lib_id "power:VCC") (at 81.28 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b57599e0-cc1b-4059-9798-8cf61dd07e0a)
-    (property "Reference" "#PWR?" (id 0) (at 77.47 124.46 0)
+    (property "Reference" "#PWR0108" (id 0) (at 77.47 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 85.09 124.4599 90)
@@ -3658,7 +3658,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 270.1256 124.46 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 253.365 130.175 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 253.365 130.175 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 253.365 130.175 0)
@@ -3677,7 +3677,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 270.1256 105.41 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 253.365 111.125 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 253.365 111.125 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 253.365 111.125 0)
@@ -3753,7 +3753,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 270.1256 69.85 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 253.365 75.565 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 253.365 75.565 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 253.365 75.565 0)
@@ -3772,7 +3772,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 117.7256 124.46 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 100.965 130.175 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 100.965 130.175 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 100.965 130.175 0)
@@ -3791,7 +3791,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 270.1256 87.63 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Only:MXOnly-1.25U-NoLED" (id 2) (at 253.365 93.345 0)
+    (property "Footprint" "MX_Only:MXOnly-1U-NoLED" (id 2) (at 253.365 93.345 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 253.365 93.345 0)
@@ -4065,11 +4065,11 @@
     (path "/e2bb888c-eb5a-4d0d-b848-10db32cdbc69"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
-    (path "/835fe862-bf49-4aad-bdd0-ce0a95cfa8b5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b57599e0-cc1b-4059-9798-8cf61dd07e0a"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/835fe862-bf49-4aad-bdd0-ce0a95cfa8b5"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
     (path "/2b760963-b83c-46c2-8661-fa7bfb8e7615"
       (reference "Crgb1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4225,7 +4225,7 @@
       (reference "Drgb3") (unit 1) (value "WS2812-2020") (footprint "CrumpPrints:WS2812-2020")
     )
     (path "/06d6f48f-e469-4354-9f3f-73c3c7e47130"
-      (reference "MX1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX1") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/2fb00450-c725-4180-b979-d28a252e6ae8"
       (reference "MX2") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
@@ -4258,10 +4258,10 @@
       (reference "MX11") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/db06471a-f536-4b29-8218-cf849310797a"
-      (reference "MX12") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX12") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/7b455f67-bf00-4bff-a7c2-40cd7dbc6d98"
-      (reference "MX13") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX13") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/76371a8c-20ef-42e4-97de-502d07a69f89"
       (reference "MX14") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
@@ -4294,10 +4294,10 @@
       (reference "MX23") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/e1941a19-abb6-4102-a2a6-af1685d6b19e"
-      (reference "MX24") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX24") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/01b25cf9-37a6-406e-a967-fb60f3ceb24d"
-      (reference "MX25") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX25") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/2a3b66a8-d0e7-4bf3-86cd-8903c6212fc1"
       (reference "MX26") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
@@ -4330,10 +4330,10 @@
       (reference "MX35") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/d3161ab3-a226-4a34-b0de-246ca221f66e"
-      (reference "MX36") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX36") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/e0ac9420-96d7-4f5e-b000-b0d14e7aaced"
-      (reference "MX37") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX37") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/6056c5db-1ad2-46d7-92ac-51e7fb050623"
       (reference "MX38") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
@@ -4354,7 +4354,7 @@
       (reference "MX43") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
     )
     (path "/cd39db94-3d7c-46bf-8554-509aa6ee1aa3"
-      (reference "MX44") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1.25U-NoLED")
+      (reference "MX44") (unit 1) (value "MX-NoLED") (footprint "MX_Only:MXOnly-1U-NoLED")
     )
     (path "/fbc2eaac-d9a0-45ae-9516-ef1321b60b11"
       (reference "Rrgb1") (unit 1) (value "R_Small") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
