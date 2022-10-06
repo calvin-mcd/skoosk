@@ -21,17 +21,17 @@
       )
     )
     (boundary
-      (path pcb 0  278732 -11068.3  278945 -11125.6  279146 -11219.1  279327 -11346.1
-            279484 -11502.7  279611 -11684  279704 -11884.6  279762 -12098.5
-            279781 -12319  279781 -88129  279762 -88349.5  279704 -88563.3
-            279611 -88764  279484 -88945.3  279327 -89101.9  279146 -89228.8
-            278945 -89322.4  278732 -89379.7  278511 -89399  -317.5 -89408
-            -538.033 -89388.7  -751.866 -89331.4  -952.5 -89237.9  -1133.84 -89110.9
-            -1290.38 -88954.3  -1417.35 -88773  -1510.91 -88572.4  -1568.21 -88358.5
-            -1587.5 -88138  -1460.5 -12319  -1441.21 -12098.5  -1383.91 -11884.6
-            -1290.35 -11684  -1163.38 -11502.7  -1006.84 -11346.1  -825.5 -11219.1
-            -624.866 -11125.6  -411.033 -11068.3  -190.5 -11049  278511 -11049
-            278732 -11068.3)
+      (path pcb 0  274642 -11068.3  274856 -11125.6  275057 -11219.1  275238 -11346.1
+            275394 -11502.7  275521 -11684  275615 -11884.6  275672 -12098.5
+            275692 -12319  275692 -88112.6  275672 -88333.1  275615 -88547
+            275521 -88747.6  275394 -88928.9  275238 -89085.5  275057 -89212.5
+            274856 -89306  274642 -89363.3  274422 -89382.6  3733.8 -89408
+            3513.27 -89388.7  3299.43 -89331.4  3098.8 -89237.9  2917.46 -89110.9
+            2760.92 -88954.3  2633.95 -88773  2540.39 -88572.4  2483.09 -88358.5
+            2463.8 -88138  2489.2 -12319  2508.49 -12098.5  2565.79 -11884.6
+            2659.35 -11684  2786.32 -11502.7  2942.86 -11346.1  3124.2 -11219.1
+            3324.83 -11125.6  3538.67 -11068.3  3759.2 -11049  274422 -11049
+            274642 -11068.3)
     )
     (plane @:no_net_0 (polygon F.Cu 0  280035 -89535  -1778 -89535  -1651 -10795  279908 -10922
             280035 -89535))
@@ -44,20 +44,10 @@
     )
   )
   (placement
-    (component "MX_Only:MXOnly-1U-NoLED"
-      (place MX44 263855.200000 -78587.600000 front 0.000000 (PN "MX-NoLED"))
-      (place MX37 14300.200000 -78562.200000 front 0.000000 (PN "MX-NoLED"))
-      (place MX36 263855.200000 -59537.600000 front 0.000000 (PN "MX-NoLED"))
-      (place MX25 14300.200000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
-      (place MX24 263855.200000 -40487.600000 front 0.000000 (PN "MX-NoLED"))
-      (place MX13 14300.200000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
-      (place MX12 263855.200000 -21437.600000 front 0.000000 (PN "MX-NoLED"))
-      (place MX1 14325.600000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
-    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
       (place D28 128270.000000 -51689.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::1"
+    (component "MX_Only:MXOnly-1U-NoLED"
       (place MX30 109601.000000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "CrumpPrints:WS2812-2020"
@@ -66,14 +56,17 @@
     (component "Keebio-Parts:ArduinoProMicro"
       (place U1 139065.000000 -29164.700000 front -90.000000 (PN ProMicro))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::2"
+    (component "MX_Only:MXOnly-1U-NoLED::1"
       (place MX16 71501.000000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
       (place D3 128270.000000 -18669.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::3"
+    (component "MX_Only:MXOnly-1U-NoLED::2"
       (place MX14 33401.000000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
+    )
+    (component "MX_Only:MXOnly-1U-NoLED::3"
+      (place MX44 263855.200000 -78587.600000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "MX_Only:MXOnly-1U-NoLED::4"
       (place MX28 71501.000000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
@@ -96,16 +89,29 @@
     (component "MX_Only:MXOnly-1U-NoLED::5"
       (place MX35 244856.000000 -59563.000000 front 0.000000 (PN "MX-NoLED"))
     )
+    (component "MX_Only:MXOnly-1U-NoLED::6"
+      (place MX24 263855.200000 -40487.600000 front 0.000000 (PN "MX-NoLED"))
+    )
     (component "MX_Only:MXOnly-1.25U-NoLED"
       (place MX43 242443.000000 -78613.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
       (place SW2 139192.000000 -58293.000000 front 0.000000 (PN RotaryEncoder_Switch))
     )
+    (component MountingHole:MountingHole_2.7mm_M2.5_Pad
+      (place H1 5588.000000 -14147.800000 front 0.000000 (PN MountingHole_Pad))
+      (place H2 81026.000000 -14147.800000 front 0.000000 (PN MountingHole_Pad))
+      (place H7 206095.600000 -86283.800000 front 0.000000 (PN MountingHole_Pad))
+      (place H3 197205.600000 -14147.800000 front 0.000000 (PN MountingHole_Pad))
+      (place H8 272567.400000 -86258.400000 front 0.000000 (PN MountingHole_Pad))
+      (place H6 72059.800000 -86283.800000 front 0.000000 (PN MountingHole_Pad))
+      (place H4 272592.800000 -14173.200000 front 0.000000 (PN MountingHole_Pad))
+      (place H5 5562.600000 -86309.200000 front 0.000000 (PN MountingHole_Pad))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::6"
       (place D6 128270.000000 -26289.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::6"
+    (component "MX_Only:MXOnly-1U-NoLED::7"
       (place MX26 33401.000000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::7"
@@ -114,7 +120,7 @@
     (component Capacitor_SMD:C_0402_1005Metric
       (place Crgb3 146586.000000 -50546.000000 front 0.000000 (PN 1uF))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::7"
+    (component "MX_Only:MXOnly-1U-NoLED::8"
       (place MX7 168656.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component Capacitor_SMD:C_0402_1005Metric::1
@@ -123,13 +129,13 @@
     (component "random-keyboard-parts:SKQG-1155865"
       (place SW1 134366.000000 -48006.000000 front 0.000000 (PN SW_Push))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::8"
+    (component "MX_Only:MXOnly-1U-NoLED::9"
       (place MX5 90551.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::8"
       (place D5 128270.000000 -23749.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::9"
+    (component "MX_Only:MXOnly-1U-NoLED::10"
       (place MX15 52451.000000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::9"
@@ -141,16 +147,16 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::11"
       (place D24 149860.000000 -28829.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::10"
+    (component "MX_Only:MXOnly-1U-NoLED::11"
       (place MX18 109601.000000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::11"
+    (component "MX_Only:MXOnly-1U-NoLED::12"
       (place MX21 206756.000000 -40513.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::12"
       (place D39 128270.000000 -64389.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::12"
+    (component "MX_Only:MXOnly-1U-NoLED::13"
       (place MX11 244856.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::13"
@@ -166,8 +172,8 @@
       (place D18 128270.000000 -41529.000000 front 180.000000 (PN D_Small))
     )
     (component LOGO
-      (place Gfront 216154.000000 -51308.000000 front 0.000000 (PN LOGO))
-      (place Gback 61468.000000 -51308.000000 back 0.000000 (PN LOGO))
+      (place Gfront 216378.970000 -48885.166000 front 0.000000 (PN LOGO))
+      (place Gback 61420.830000 -48885.166000 back 0.000000 (PN LOGO))
     )
     (component "MX_Only:MXOnly-3U-NoLED::1"
       (place MX40 105664.000000 -78613.000000 front 0.000000 (PN "MX-NoLED"))
@@ -178,7 +184,7 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::18"
       (place D36 149860.000000 -44069.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::13"
+    (component "MX_Only:MXOnly-1U-NoLED::14"
       (place MX10 225806.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::19"
@@ -187,16 +193,16 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::20"
       (place D32 149860.000000 -54229.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::14"
+    (component "MX_Only:MXOnly-1U-NoLED::15"
       (place MX4 71501.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "CrumpPrints:WS2812-2020::1"
       (place Drgb3 146558.000000 -48641.000000 front 90.000000 (PN "WS2812-2020"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::15"
+    (component "MX_Only:MXOnly-1U-NoLED::16"
       (place MX32 187706.000000 -59563.000000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::16"
+    (component "MX_Only:MXOnly-1U-NoLED::17"
       (place MX22 225806.000000 -40513.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
@@ -208,13 +214,16 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::22"
       (place D12 149860.000000 -13589.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::17"
+    (component "MX_Only:MXOnly-1U-NoLED::18"
       (place MX27 52451.000000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
+    )
+    (component "MX_Only:MXOnly-1U-NoLED::19"
+      (place MX36 263855.200000 -59537.600000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::23"
       (place D9 149860.000000 -21209.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::18"
+    (component "MX_Only:MXOnly-1U-NoLED::20"
       (place MX20 187706.000000 -40513.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::24"
@@ -225,6 +234,9 @@
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::26"
       (place D7 149860.000000 -26289.000000 front 0.000000 (PN D_Small))
+    )
+    (component "MX_Only:MXOnly-1U-NoLED::21"
+      (place MX25 14300.200000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::27"
       (place D33 149860.000000 -51689.000000 front 0.000000 (PN D_Small))
@@ -238,32 +250,41 @@
     (component "MX_Only:MXOnly-1.25U-NoLED::1"
       (place MX42 213106.000000 -78613.000000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::19"
+    (component "MX_Only:MXOnly-1U-NoLED::22"
       (place MX33 206756.000000 -59563.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "MX_Only:MXOnly-1.25U-NoLED::2"
       (place MX38 35687.000000 -78562.200000 front 0.000000 (PN "MX-NoLED"))
     )
+    (component "MX_Only:MXOnly-1U-NoLED::23"
+      (place MX13 14300.200000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::30"
       (place D42 149860.000000 -64389.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::20"
+    (component "MX_Only:MXOnly-1U-NoLED::24"
       (place MX6 109601.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::21"
+    (component "MX_Only:MXOnly-1U-NoLED::25"
       (place MX3 52451.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::22"
+    (component "MX_Only:MXOnly-1U-NoLED::26"
       (place MX2 33401.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::23"
+    (component "MX_Only:MXOnly-1U-NoLED::27"
       (place MX17 90551.000000 -40462.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::31"
       (place D11 149860.000000 -16129.000000 front 0.000000 (PN D_Small))
     )
+    (component "MX_Only:MXOnly-1U-NoLED::28"
+      (place MX1 14325.600000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::32"
       (place D25 128270.000000 -44069.000000 front 180.000000 (PN D_Small))
+    )
+    (component "MX_Only:MXOnly-1U-NoLED::29"
+      (place MX37 14300.200000 -78562.200000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "MX_Only:MXOnly-1.25U-NoLED::3"
       (place MX39 65151.000000 -78613.000000 front 0.000000 (PN "MX-NoLED"))
@@ -274,19 +295,19 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::34"
       (place D8 149860.000000 -23749.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::24"
+    (component "MX_Only:MXOnly-1U-NoLED::30"
       (place MX23 244856.000000 -40513.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::35"
       (place D44 149860.000000 -59309.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::25"
+    (component "MX_Only:MXOnly-1U-NoLED::31"
       (place MX9 206756.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::36"
       (place D20 149860.000000 -38989.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::26"
+    (component "MX_Only:MXOnly-1U-NoLED::32"
       (place MX34 225806.000000 -59563.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::37"
@@ -304,11 +325,14 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::39"
       (place D13 128270.000000 -28829.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::27"
+    (component "MX_Only:MXOnly-1U-NoLED::33"
       (place MX19 168656.000000 -40513.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::40"
       (place D29 128270.000000 -54229.000000 front 180.000000 (PN D_Small))
+    )
+    (component "MX_Only:MXOnly-1U-NoLED::34"
+      (place MX12 263906.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::41"
       (place D10 149860.000000 -18669.000000 front 0.000000 (PN D_Small))
@@ -316,16 +340,16 @@
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::42"
       (place D41 149860.000000 -66929.000000 front 0.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::28"
+    (component "MX_Only:MXOnly-1U-NoLED::35"
       (place MX31 168656.000000 -59563.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::43"
       (place D37 128270.000000 -59309.000000 front 180.000000 (PN D_Small))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::29"
+    (component "MX_Only:MXOnly-1U-NoLED::36"
       (place MX29 90551.000000 -59512.200000 front 0.000000 (PN "MX-NoLED"))
     )
-    (component "MX_Only:MXOnly-1U-NoLED::30"
+    (component "MX_Only:MXOnly-1U-NoLED::37"
       (place MX8 187706.000000 -21463.000000 front 0.000000 (PN "MX-NoLED"))
     )
     (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::44"
@@ -333,28 +357,6 @@
     )
   )
   (library
-    (image "MX_Only:MXOnly-1U-NoLED"
-      (outline (path signal 150  -9525 -9525  -9525 9525))
-      (outline (path signal 150  9525 -9525  -9525 -9525))
-      (outline (path signal 150  9525 9525  9525 -9525))
-      (outline (path signal 150  -9525 9525  9525 9525))
-      (outline (path signal 150  -7000 7000  -7000 5000))
-      (outline (path signal 150  -5000 7000  -7000 7000))
-      (outline (path signal 150  -7000 -7000  -5000 -7000))
-      (outline (path signal 150  -7000 -5000  -7000 -7000))
-      (outline (path signal 150  7000 -7000  7000 -5000))
-      (outline (path signal 150  5000 -7000  7000 -7000))
-      (outline (path signal 150  7000 7000  7000 5000))
-      (outline (path signal 150  5000 7000  7000 7000))
-      (pin Round[A]Pad_2250_um 1 -3810 2540)
-      (pin Round[A]Pad_2250_um 2 2540 5080)
-      (keepout "" (circle F.Cu 1750 5080 0))
-      (keepout "" (circle B.Cu 1750 5080 0))
-      (keepout "" (circle F.Cu 1750 -5080 0))
-      (keepout "" (circle B.Cu 1750 -5080 0))
-      (keepout "" (circle F.Cu 3987.8))
-      (keepout "" (circle B.Cu 3987.8))
-    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
       (outline (path signal 120  2290 1120  2290 -1120))
       (outline (path signal 120  1690 1120  1690 -1120))
@@ -381,7 +383,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::1"
+    (image "MX_Only:MXOnly-1U-NoLED"
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  5000 -7000  7000 -7000))
@@ -459,7 +461,7 @@
       (pin Round[A]Pad_1752.6_um 23 -11430 7620)
       (pin Round[A]Pad_1752.6_um 24 -13970 7620)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::2"
+    (image "MX_Only:MXOnly-1U-NoLED::1"
       (outline (path signal 150  -5000 7000  -7000 7000))
       (outline (path signal 150  -9525 -9525  -9525 9525))
       (outline (path signal 150  -9525 9525  9525 9525))
@@ -507,7 +509,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::3"
+    (image "MX_Only:MXOnly-1U-NoLED::2"
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  7000 7000  7000 5000))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
@@ -528,6 +530,28 @@
       (keepout "" (circle B.Cu 1750 -5080 0))
       (keepout "" (circle F.Cu 1750 5080 0))
       (keepout "" (circle B.Cu 1750 5080 0))
+    )
+    (image "MX_Only:MXOnly-1U-NoLED::3"
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
     )
     (image "MX_Only:MXOnly-1U-NoLED::4"
       (outline (path signal 150  -7000 -5000  -7000 -7000))
@@ -707,6 +731,28 @@
       (keepout "" (circle F.Cu 1750 5080 0))
       (keepout "" (circle B.Cu 1750 5080 0))
     )
+    (image "MX_Only:MXOnly-1U-NoLED::6"
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
     (image "MX_Only:MXOnly-1.25U-NoLED"
       (outline (path signal 150  11906.2 9525  11906.2 -9525))
       (outline (path signal 150  5000 -7000  7000 -7000))
@@ -790,6 +836,37 @@
       (pin Round[A]Pad_2000_um S1 7000 -2500)
       (pin Round[A]Pad_2000_um S2 7000 2500)
     )
+    (image MountingHole:MountingHole_2.7mm_M2.5_Pad
+      (outline (path signal 150  2700 0  2681.05 -319.338  2624.46 -634.192  2531.03 -940.144
+            2402.07 -1232.9  2239.39 -1508.35  2045.28 -1762.62  1822.45 -1992.15
+            1574.05 -2193.72  1303.54 -2364.48  1014.73 -2502.06  711.685 -2604.52
+            398.646 -2670.41  80.01 -2698.81  -239.749 -2689.34  -556.142 -2642.1
+            -864.729 -2557.78  -1161.18 -2437.55  -1441.32 -2283.11  -1701.24 -2096.61
+            -1937.27 -1880.69  -2146.11 -1638.36  -2324.82 -1373.03  -2470.89 -1088.43
+            -2582.28 -788.553  -2657.42 -477.604  -2695.26 -159.95  -2695.26 159.95
+            -2657.42 477.604  -2582.28 788.553  -2470.89 1088.43  -2324.82 1373.03
+            -2146.11 1638.36  -1937.27 1880.69  -1701.24 2096.61  -1441.32 2283.11
+            -1161.18 2437.55  -864.729 2557.78  -556.142 2642.1  -239.749 2689.34
+            80.01 2698.81  398.646 2670.41  711.685 2604.52  1014.73 2502.06
+            1303.54 2364.48  1574.05 2193.72  1822.45 1992.15  2045.28 1762.62
+            2239.39 1508.35  2402.07 1232.9  2531.03 940.144  2624.46 634.192
+            2681.05 319.338  2700 0))
+      (outline (path signal 50  2950 0  2930.77 -336.275  2873.34 -668.165  2778.44 -991.346
+            2647.32 -1301.6  2481.7 -1594.89  2283.72 -1867.39  2055.97 -2115.54
+            1801.41 -2336.11  1523.37 -2526.23  1225.47 -2683.41  911.6 -2805.62
+            585.842 -2891.24  252.446 -2939.18  -84.24 -2948.8  -419.829 -2919.97
+            -749.944 -2853.08  -1070.28 -2749  -1376.67 -2609.08  -1665.11 -2435.14
+            -1931.84 -2229.46  -2173.39 -1994.72  -2386.6 -1733.97  -2568.7 -1450.61
+            -2717.32 -1148.35  -2830.5 -831.111  -2906.79 -503.04  -2945.19 -168.412
+            -2945.19 168.412  -2906.79 503.04  -2830.5 831.111  -2717.32 1148.35
+            -2568.7 1450.61  -2386.6 1733.97  -2173.39 1994.72  -1931.84 2229.46
+            -1665.11 2435.14  -1376.67 2609.08  -1070.28 2749  -749.944 2853.08
+            -419.829 2919.97  -84.24 2948.8  252.446 2939.18  585.842 2891.24
+            911.6 2805.62  1225.47 2683.41  1523.37 2526.23  1801.41 2336.11
+            2055.97 2115.54  2283.72 1867.39  2481.7 1594.89  2647.32 1301.6
+            2778.44 991.346  2873.34 668.165  2930.77 336.275  2950 0))
+      (pin Round[A]Pad_5400_um 1 0 0)
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::6"
       (outline (path signal 120  5930 1120  1690 1120))
       (outline (path signal 120  1690 1120  1690 -1120))
@@ -816,7 +893,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::6"
+    (image "MX_Only:MXOnly-1U-NoLED::7"
       (outline (path signal 150  -5000 7000  -7000 7000))
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
@@ -878,7 +955,7 @@
       (pin RoundRect[T]Pad_560x620_140.533_um_0.000000_0 1 -480 0)
       (pin RoundRect[T]Pad_560x620_140.533_um_0.000000_0 2 480 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::7"
+    (image "MX_Only:MXOnly-1U-NoLED::8"
       (outline (path signal 150  5000 7000  7000 7000))
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  7000 -7000  7000 -5000))
@@ -956,7 +1033,7 @@
       (pin Rect[T]Pad_1800x1100_um 3 3100 1850)
       (pin Rect[T]Pad_1800x1100_um 4 -3100 -1850)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::8"
+    (image "MX_Only:MXOnly-1U-NoLED::9"
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
       (outline (path signal 150  7000 7000  7000 5000))
@@ -1004,7 +1081,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::9"
+    (image "MX_Only:MXOnly-1U-NoLED::10"
       (outline (path signal 150  -7000 -7000  -5000 -7000))
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  -7000 -5000  -7000 -7000))
@@ -1104,7 +1181,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::10"
+    (image "MX_Only:MXOnly-1U-NoLED::11"
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  7000 7000  7000 5000))
       (outline (path signal 150  -9525 9525  9525 9525))
@@ -1126,7 +1203,7 @@
       (keepout "" (circle F.Cu 1750 5080 0))
       (keepout "" (circle B.Cu 1750 5080 0))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::11"
+    (image "MX_Only:MXOnly-1U-NoLED::12"
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  9525 9525  9525 -9525))
       (outline (path signal 150  -9525 -9525  -9525 9525))
@@ -1174,7 +1251,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::12"
+    (image "MX_Only:MXOnly-1U-NoLED::13"
       (outline (path signal 150  7000 -7000  7000 -5000))
       (outline (path signal 150  5000 -7000  7000 -7000))
       (outline (path signal 150  -9525 9525  9525 9525))
@@ -1384,7 +1461,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::13"
+    (image "MX_Only:MXOnly-1U-NoLED::14"
       (outline (path signal 150  -9525 -9525  -9525 9525))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
       (outline (path signal 150  -7000 -5000  -7000 -7000))
@@ -1458,7 +1535,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::14"
+    (image "MX_Only:MXOnly-1U-NoLED::15"
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  -5000 7000  -7000 7000))
       (outline (path signal 150  -9525 9525  9525 9525))
@@ -1490,7 +1567,7 @@
       (pin Rect[T]Pad_700x700_um 3 -915 550)
       (pin Rect[T]Pad_700x700_um 4 -915 -550)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::15"
+    (image "MX_Only:MXOnly-1U-NoLED::16"
       (outline (path signal 150  -9525 9525  9525 9525))
       (outline (path signal 150  5000 7000  7000 7000))
       (outline (path signal 150  7000 7000  7000 5000))
@@ -1512,7 +1589,7 @@
       (keepout "" (circle F.Cu 1750 5080 0))
       (keepout "" (circle B.Cu 1750 5080 0))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::16"
+    (image "MX_Only:MXOnly-1U-NoLED::17"
       (outline (path signal 150  -9525 -9525  -9525 9525))
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
@@ -1602,7 +1679,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::17"
+    (image "MX_Only:MXOnly-1U-NoLED::18"
       (outline (path signal 150  -9525 9525  9525 9525))
       (outline (path signal 150  7000 -7000  7000 -5000))
       (outline (path signal 150  9525 9525  9525 -9525))
@@ -1615,6 +1692,28 @@
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  -5000 7000  -7000 7000))
       (outline (path signal 150  5000 -7000  7000 -7000))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
+    (image "MX_Only:MXOnly-1U-NoLED::19"
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  -9525 9525  9525 9525))
       (pin Round[A]Pad_2250_um 1 -3810 2540)
       (pin Round[A]Pad_2250_um 2 2540 5080)
       (keepout "" (circle F.Cu 1750 -5080 0))
@@ -1650,7 +1749,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::18"
+    (image "MX_Only:MXOnly-1U-NoLED::20"
       (outline (path signal 150  5000 -7000  7000 -7000))
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
@@ -1749,6 +1848,28 @@
       (outline (path signal 100  0 0  1810 0))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image "MX_Only:MXOnly-1U-NoLED::21"
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
     )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::27"
       (outline (path signal 120  1040 0  1690 0))
@@ -1850,7 +1971,7 @@
       (keepout "" (circle F.Cu 1750 -5080 0))
       (keepout "" (circle B.Cu 1750 -5080 0))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::19"
+    (image "MX_Only:MXOnly-1U-NoLED::22"
       (outline (path signal 150  7000 7000  7000 5000))
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  9525 9525  9525 -9525))
@@ -1894,6 +2015,28 @@
       (keepout "" (circle F.Cu 1750 -5080 0))
       (keepout "" (circle B.Cu 1750 -5080 0))
     )
+    (image "MX_Only:MXOnly-1U-NoLED::23"
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::30"
       (outline (path signal 120  1690 -1120  5930 -1120))
       (outline (path signal 120  2290 1120  2290 -1120))
@@ -1920,7 +2063,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::20"
+    (image "MX_Only:MXOnly-1U-NoLED::24"
       (outline (path signal 150  5000 7000  7000 7000))
       (outline (path signal 150  -9525 -9525  -9525 9525))
       (outline (path signal 150  -9525 9525  9525 9525))
@@ -1942,7 +2085,7 @@
       (keepout "" (circle F.Cu 1750 5080 0))
       (keepout "" (circle B.Cu 1750 5080 0))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::21"
+    (image "MX_Only:MXOnly-1U-NoLED::25"
       (outline (path signal 150  -7000 -7000  -5000 -7000))
       (outline (path signal 150  -7000 7000  -7000 5000))
       (outline (path signal 150  -9525 9525  9525 9525))
@@ -1964,7 +2107,7 @@
       (keepout "" (circle F.Cu 3987.8))
       (keepout "" (circle B.Cu 3987.8))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::22"
+    (image "MX_Only:MXOnly-1U-NoLED::26"
       (outline (path signal 150  7000 7000  7000 5000))
       (outline (path signal 150  7000 -7000  7000 -5000))
       (outline (path signal 150  9525 -9525  -9525 -9525))
@@ -1986,7 +2129,7 @@
       (keepout "" (circle F.Cu 1750 -5080 0))
       (keepout "" (circle B.Cu 1750 -5080 0))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::23"
+    (image "MX_Only:MXOnly-1U-NoLED::27"
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  9525 9525  9525 -9525))
       (outline (path signal 150  7000 -7000  7000 -5000))
@@ -2034,6 +2177,28 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
+    (image "MX_Only:MXOnly-1U-NoLED::28"
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+    )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::32"
       (outline (path signal 120  2410 1120  2410 -1120))
       (outline (path signal 120  1040 0  1690 0))
@@ -2059,6 +2224,28 @@
       (outline (path signal 100  2310 1000  2310 -1000))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image "MX_Only:MXOnly-1U-NoLED::29"
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  5000 7000  7000 7000))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
     )
     (image "MX_Only:MXOnly-1.25U-NoLED::3"
       (outline (path signal 150  5000 -7000  7000 -7000))
@@ -2134,7 +2321,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::24"
+    (image "MX_Only:MXOnly-1U-NoLED::30"
       (outline (path signal 150  -9525 9525  9525 9525))
       (outline (path signal 150  7000 7000  7000 5000))
       (outline (path signal 150  -5000 7000  -7000 7000))
@@ -2182,7 +2369,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::25"
+    (image "MX_Only:MXOnly-1U-NoLED::31"
       (outline (path signal 150  -7000 -5000  -7000 -7000))
       (outline (path signal 150  -7000 -7000  -5000 -7000))
       (outline (path signal 150  7000 -7000  7000 -5000))
@@ -2230,7 +2417,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::26"
+    (image "MX_Only:MXOnly-1U-NoLED::32"
       (outline (path signal 150  9525 -9525  -9525 -9525))
       (outline (path signal 150  -7000 -5000  -7000 -7000))
       (outline (path signal 150  5000 -7000  7000 -7000))
@@ -2354,7 +2541,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::27"
+    (image "MX_Only:MXOnly-1U-NoLED::33"
       (outline (path signal 150  7000 7000  7000 5000))
       (outline (path signal 150  5000 7000  7000 7000))
       (outline (path signal 150  9525 -9525  -9525 -9525))
@@ -2401,6 +2588,28 @@
       (outline (path signal 100  0 0  1810 0))
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
+    )
+    (image "MX_Only:MXOnly-1U-NoLED::34"
+      (outline (path signal 150  -7000 -7000  -5000 -7000))
+      (outline (path signal 150  9525 9525  9525 -9525))
+      (outline (path signal 150  7000 7000  7000 5000))
+      (outline (path signal 150  -7000 -5000  -7000 -7000))
+      (outline (path signal 150  -9525 9525  9525 9525))
+      (outline (path signal 150  -7000 7000  -7000 5000))
+      (outline (path signal 150  9525 -9525  -9525 -9525))
+      (outline (path signal 150  -9525 -9525  -9525 9525))
+      (outline (path signal 150  -5000 7000  -7000 7000))
+      (outline (path signal 150  5000 7000  7000 7000))
+      (outline (path signal 150  5000 -7000  7000 -7000))
+      (outline (path signal 150  7000 -7000  7000 -5000))
+      (pin Round[A]Pad_2250_um 1 -3810 2540)
+      (pin Round[A]Pad_2250_um 2 2540 5080)
+      (keepout "" (circle F.Cu 1750 5080 0))
+      (keepout "" (circle B.Cu 1750 5080 0))
+      (keepout "" (circle F.Cu 1750 -5080 0))
+      (keepout "" (circle B.Cu 1750 -5080 0))
+      (keepout "" (circle F.Cu 3987.8))
+      (keepout "" (circle B.Cu 3987.8))
     )
     (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::41"
       (outline (path signal 120  2290 1120  2290 -1120))
@@ -2454,7 +2663,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::28"
+    (image "MX_Only:MXOnly-1U-NoLED::35"
       (outline (path signal 150  -7000 -5000  -7000 -7000))
       (outline (path signal 150  9525 9525  9525 -9525))
       (outline (path signal 150  -5000 7000  -7000 7000))
@@ -2502,7 +2711,7 @@
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
       (pin Oval[A]Pad_1600x1600_um 2 7620 0)
     )
-    (image "MX_Only:MXOnly-1U-NoLED::29"
+    (image "MX_Only:MXOnly-1U-NoLED::36"
       (outline (path signal 150  -9525 9525  9525 9525))
       (outline (path signal 150  -9525 -9525  -9525 9525))
       (outline (path signal 150  7000 7000  7000 5000))
@@ -2524,7 +2733,7 @@
       (keepout "" (circle F.Cu 3987.8))
       (keepout "" (circle B.Cu 3987.8))
     )
-    (image "MX_Only:MXOnly-1U-NoLED::30"
+    (image "MX_Only:MXOnly-1U-NoLED::37"
       (outline (path signal 150  5000 7000  7000 7000))
       (outline (path signal 150  -7000 -5000  -7000 -7000))
       (outline (path signal 150  5000 -7000  7000 -7000))
@@ -2592,6 +2801,11 @@
       (shape (circle B.Cu 2250))
       (attach off)
     )
+    (padstack Round[A]Pad_5400_um
+      (shape (circle F.Cu 5400))
+      (shape (circle B.Cu 5400))
+      (attach off)
+    )
     (padstack Oval[A]Pad_1400x1400_um
       (shape (path F.Cu 1400  0 0  0 0))
       (shape (path B.Cu 1400  0 0  0 0))
@@ -2649,7 +2863,7 @@
     (net @:no_net_0
     )
     (net COL0
-      (pins MX37-1 MX25-1 MX13-1 MX1-1 U1-16 MX14-1 MX26-1 MX38-1 MX2-1)
+      (pins U1-16 MX14-1 MX26-1 MX25-1 MX38-1 MX13-1 MX2-1 MX1-1 MX37-1)
     )
     (net ROW0
       (pins U1-20 D3-1 D5-1 D9-1 D7-1 D11-1 D1-1)
@@ -2694,7 +2908,7 @@
       (pins D8-2 MX8-2)
     )
     (net COL5
-      (pins MX44-1 MX36-1 MX24-1 MX12-1 U1-11 MX35-1 MX43-1 MX11-1 MX23-1)
+      (pins U1-11 MX44-1 MX35-1 MX24-1 MX43-1 MX11-1 MX36-1 MX23-1 MX12-1)
     )
     (net "Net-(D9-Pad2)"
       (pins D9-2 MX9-2)
@@ -2706,7 +2920,7 @@
       (pins MX11-2 D11-2)
     )
     (net "Net-(D12-Pad2)"
-      (pins MX12-2 D12-2)
+      (pins D12-2 MX12-2)
     )
     (net "Net-(D13-Pad2)"
       (pins MX13-2 D13-2)
@@ -2778,7 +2992,7 @@
       (pins MX35-2 D35-2)
     )
     (net "Net-(D36-Pad2)"
-      (pins MX36-2 D36-2)
+      (pins D36-2 MX36-2)
     )
     (net "Net-(D37-Pad2)"
       (pins MX37-2 D37-2)
@@ -2824,7 +3038,8 @@
       (pins U1-8 D40-1 D42-1 D44-1 D38-1)
     )
     (net GND
-      (pins Drgb2-2 U1-3 U1-4 U1-23 SW2-C Crgb3-2 Crgb2-2 SW1-1 Drgb3-2 Drgb1-2 Crgb1-2)
+      (pins Drgb2-2 U1-3 U1-4 U1-23 SW2-C H1-1 H2-1 Crgb3-2 Crgb2-2 SW1-1 H7-1 H3-1
+        Drgb3-2 H8-1 H6-1 H4-1 Drgb1-2 Crgb1-2 H5-1)
     )
     (net "Net-(Drgb1-Pad3)"
       (pins Rrgb1-1 Drgb1-3)
