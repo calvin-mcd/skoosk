@@ -1,0 +1,41 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2022-10-09T17:04:34+02:00*%
+%TF.ProjectId,skoosk backplate,736b6f6f-736b-4206-9261-636b706c6174,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2022-10-09 17:04:34*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,5.400000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H1*%
+X5588000Y-14147800D03*
+%TD*%
+%TO.C,H2*%
+X81026000Y-14147800D03*
+%TD*%
+%TO.C,H7*%
+X206095600Y-86283800D03*
+%TD*%
+%TO.C,H3*%
+X197205600Y-14147800D03*
+%TD*%
+%TO.C,H8*%
+X272567400Y-86258400D03*
+%TD*%
+%TO.C,H6*%
+X72059800Y-86283800D03*
+%TD*%
+%TO.C,H4*%
+X272592800Y-14173200D03*
+%TD*%
+%TO.C,H5*%
+X5562600Y-86309200D03*
+%TD*%
+M02*
