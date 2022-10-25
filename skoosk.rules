@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 232)
+    (start_pass_no 234)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -65,8 +65,8 @@
     "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D31-Pad2)"
     "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)" "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)"
     "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)" "Net-(D44-Pad2)" ROW2 ROW3 ROW4
-    "Net-(D51-Pad2)" ROW6 ROW7 GND "Net-(Drgb1-Pad3)" "unconnected-(U1-Pad24)" "unconnected-(U1-Pad1)" "Net-(SW1-Pad2)"
-    "rotary_a" "rotary_b" "unconnected-(Drgb3-Pad1)" VCC "Net-(Drgb1-Pad1)" "Net-(Drgb2-Pad1)" "rgb pin"
+    "Net-(D51-Pad2)" ROW6 ROW7 GND "unconnected-(U1-Pad24)" "unconnected-(U1-Pad1)" "Net-(SW1-Pad2)" "rotary_a"
+    "rotary_b" "unconnected-(Drgb3-Pad1)" VCC "Net-(Drgb1-Pad1)" "Net-(Drgb2-Pad1)" "rgb pin"
     (clearance_class default)
     (via_rule default)
     (rule
