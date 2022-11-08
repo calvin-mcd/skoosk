@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Gerber")
+      (outputdirectory "C:/Users/viva-/Documents/GitHub/skoosk/Production/Plates/")
     )
   )
 
