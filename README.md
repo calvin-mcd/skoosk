@@ -18,8 +18,8 @@ As always big thanks to the many people who helped me with the pcb, firmware and
 
 Any questions, contact Calvin#0563 on Discord.
 
-![skoosk](https://imgur.com/y62HtcG)
-![skossk](https://imgur.com/dDfl0X6)
+![skoosk](https://i.imgur.com/y62HtcG)
+![skossk](https://i.imgur.com/dDfl0X6)
 
 
 
