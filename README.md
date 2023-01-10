@@ -24,12 +24,6 @@ The skoosk was my first attempt at creating a split ortholinear keyboard from sc
 
 *skoosk switchplate & backplate 8 screwholes* have 8 screwholes in total to offer more stability for the whole sandwhich case.
 
-## Todo
-- [x] create KLE gist
-- [] add open source license
-- [x] update production files
-- [] finish readme
-
 ## Disclaimer
 
 Please note that this project has *not* been tested in its final state and I am *not responsible* for any outcomes of its use. However, feel free to edit, modify and otherwise utilise these files.
