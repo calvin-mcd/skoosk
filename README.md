@@ -10,7 +10,7 @@ The skoosk was my first attempt at creating a split ortholinear keyboard from sc
 
 <a href="https://www.keyboard-layout-editor.com/#/gists/cdc0d16012a44037b1bdb8499f2bf92a">Link<a>
 
-## Renders & Pictures
+## Pictures
 
 ![skoosk](https://github.com/calvin-mcd/skoosk/blob/main/Images/DSCF4392.JPG)
 
