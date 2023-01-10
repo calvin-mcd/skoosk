@@ -1,0 +1,41 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2023-01-10T10:05:45+01:00*%
+%TF.ProjectId,skoosk switchplate 8 screwholes,736b6f6f-736b-4207-9377-69746368706c,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2023-01-10 10:05:45*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,4.400000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H2*%
+X115887500Y-91537469D03*
+%TD*%
+%TO.C,H3*%
+X162369692Y-8481252D03*
+%TD*%
+%TO.C,H4*%
+X273177000Y-8509000D03*
+%TD*%
+%TO.C,H1*%
+X5207000Y-91567000D03*
+%TD*%
+%TO.C,H4*%
+X273304000Y-91567000D03*
+%TD*%
+%TO.C,H1*%
+X4953000Y-8509000D03*
+%TD*%
+%TO.C,H2*%
+X115887500Y-8509000D03*
+%TD*%
+%TO.C,H3*%
+X162689708Y-91391033D03*
+%TD*%
+M02*

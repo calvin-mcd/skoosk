@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.7)*%
+%TF.CreationDate,2023-01-10T10:00:22+01:00*%
+%TF.ProjectId,skoosk backplate 4 screwholes,736b6f6f-736b-4206-9261-636b706c6174,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.7)) date 2023-01-10 10:00:22*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,4.400000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H4*%
+X273186700Y-11950000D03*
+%TD*%
+%TO.C,H1*%
+X5207000Y-88265000D03*
+%TD*%
+%TO.C,H4*%
+X273313700Y-88277000D03*
+%TD*%
+%TO.C,H1*%
+X5080000Y-11938000D03*
+%TD*%
+M02*
