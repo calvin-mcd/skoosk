@@ -26,7 +26,7 @@ The skoosk was my first attempt at creating a split ortholinear keyboard from sc
 
 ## Disclaimer
 
-Please note that this project has *not* been tested in its final state and I am *not responsible* for any outcomes of its use. However, feel free to edit, modify and otherwise utilise these files.
+Please note that this project has not been tested in its final version. There are no guarantees of a working outcome. No-one involved in this project is responsible for any usage issues that may arise. However, feel free to edit, modify and otherwise utilise these files.
 
 ## License
 
