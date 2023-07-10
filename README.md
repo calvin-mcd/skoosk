@@ -2,7 +2,7 @@
 
 some kind of ortholinear split keyboard
 
-The skoosk was my first attempt at creating a split ortholinear keyboard from scratch. The first production run had some issues with the pcb and the plate files. In the process of rectifying these issues I ended up creating two different PCB version, and two different types of switch and backplates.
+The skoosk was my first attempt at creating a split ortholinear keyboard from scratch. The first production run had some issues with the pcb and the plate files. In the process of rectifying these issues I ended up creating simplifying the pcb for manual assembly. There are two different types of switch and backplates. One for more bounce, the other for more stability.
 
 ## Layout
 
@@ -16,13 +16,15 @@ The skoosk was my first attempt at creating a split ortholinear keyboard from sc
 
 ## Project Files
 
-*skoosk pcb rgb* contains smt assembly parts. 1 reset button and 3 rgb lights with resistors.
-
-*skoosk pcb simple* omits these to offer a pcb file that is cheap to order and produce.
+*skoosk pcb rgb* is not designed for manual assembly supporting LEDs and a reset switch if wanted.
 
 *skoosk switchplate & backplate 4 screwholes* each have 4 outer screwholes that give the sandwhich assembly a good amount of bounce.
 
 *skoosk switchplate & backplate 8 screwholes* have 8 screwholes in total to offer more stability for the whole sandwhich case.
+
+## Todo
+- [ ] test newest pcb revision
+- [ ] add firmware support for the RGB indicator leds
 
 ## Disclaimer
 
